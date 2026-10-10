@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="jm_97kFExSr4cmK1QTk4">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="お客様" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="店員" vertex="1">
+          <mxGeometry height="60" width="30" x="680" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="モバイルオーダーアプリ" vertex="1">
+          <mxGeometry height="500" width="360" x="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="メニューを見る&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="270" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="商品を注文する" vertex="1">
+          <mxGeometry height="80" width="210" x="270" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="注文状況を確認する" vertex="1">
+          <mxGeometry height="80" width="210" x="280" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="注文を受け渡す" vertex="1">
+          <mxGeometry height="80" width="210" x="285" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="注文を取り消す" vertex="1">
+          <mxGeometry height="80" width="210" x="280" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-13" edge="1" parent="1" source="C_IjjOuyuIeLwKlgpgCL-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.099;entryY=0.81;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="C_IjjOuyuIeLwKlgpgCL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-14" edge="1" parent="1" source="C_IjjOuyuIeLwKlgpgCL-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="C_IjjOuyuIeLwKlgpgCL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-16" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.048;entryY=0.24;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" target="C_IjjOuyuIeLwKlgpgCL-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="256" as="sourcePoint" />
+            <mxPoint x="280" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-17" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="C_IjjOuyuIeLwKlgpgCL-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="266" as="sourcePoint" />
+            <mxPoint x="300" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_IjjOuyuIeLwKlgpgCL-19" edge="1" parent="1" source="C_IjjOuyuIeLwKlgpgCL-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="C_IjjOuyuIeLwKlgpgCL-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="360" as="sourcePoint" />
+            <mxPoint x="903" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
