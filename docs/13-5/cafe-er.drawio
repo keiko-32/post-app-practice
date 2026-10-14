@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="p0msXgFeIyQTxvVdBkca">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y8-qj6e-E8Lie3O_UNS1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;products&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="540" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8-qj6e-E8Lie3O_UNS1-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;order_items&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="50" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8-qj6e-E8Lie3O_UNS1-4" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;" value="1件の注文は1件以上の&lt;div&gt;注文明細を持つ&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="260" as="sourcePoint" />
+            <mxPoint x="280" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8-qj6e-E8Lie3O_UNS1-5" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmandOne;endFill=0;startArrow=ERzeroToMany;startFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="320" as="sourcePoint" />
+            <mxPoint x="530" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8-qj6e-E8Lie3O_UNS1-6" connectable="0" parent="Y8-qj6e-E8Lie3O_UNS1-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1つの商品は複数の&lt;div&gt;注文明細に表れることがある&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2118" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8-qj6e-E8Lie3O_UNS1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;orders&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="550" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
