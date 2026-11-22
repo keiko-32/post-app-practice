@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="BAwHXLV4-WwHnHRjsGZQ">
+    <mxGraphModel dx="1269" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="710" width="800" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;経費申請画面&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="310" x="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;日付&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;利用目的&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="195" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;費目&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="330" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;金額&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="310" x="460" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="日付入力" vertex="1">
+          <mxGeometry height="60" width="130" x="50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="日付入力" vertex="1">
+          <mxGeometry height="60" width="130" x="50" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="日付入力" vertex="1">
+          <mxGeometry height="60" width="130" x="50" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="日付入力" vertex="1">
+          <mxGeometry height="60" width="130" x="50" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="目的入力" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="目的入力" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="目的入力" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="目的入力" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="選択欄" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="選択欄" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="選択欄" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="選択欄" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="金額入力" vertex="1">
+          <mxGeometry height="60" width="310" x="460" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="金額入力" vertex="1">
+          <mxGeometry height="60" width="310" x="460" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="金額入力" vertex="1">
+          <mxGeometry height="60" width="310" x="460" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="金額入力" vertex="1">
+          <mxGeometry height="60" width="310" x="465" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="新規申請時：申請する&lt;div&gt;差し戻し時：再提出する&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="150" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="キャンセル" vertex="1">
+          <mxGeometry height="60" width="190" x="414" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="日付入力" vertex="1">
+          <mxGeometry height="60" width="130" x="50" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="目的入力" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="選択欄" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="金額入力" vertex="1">
+          <mxGeometry height="60" width="310" x="460" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-Dtc5JfP_lsrcvG2f-4-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="差し戻し理由（差し戻し申請の修正時のみ表示・閲覧のみ）" vertex="1">
+          <mxGeometry height="90" width="580" x="120" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
