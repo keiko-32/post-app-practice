@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="RoV20jurtqF1Aq7jOXgI">
+    <mxGraphModel dx="1241" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="70" width="70" x="850" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-4" edge="1" parent="1" source="tmVA-_wDSa3nCH-YsApd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" target="tmVA-_wDSa3nCH-YsApd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-13" connectable="0" parent="tmVA-_wDSa3nCH-YsApd-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="&lt;br&gt;&lt;div&gt;申請者が書き直して再提出する&lt;/div&gt;&lt;div&gt;（再提出できるのは申請した&lt;/div&gt;&lt;div&gt;本人のみ）&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0244" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="差し戻し" vertex="1">
+          <mxGeometry height="60" width="200" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="承認済み" vertex="1">
+          <mxGeometry height="60" width="220" x="780" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-5" edge="1" parent="1" source="tmVA-_wDSa3nCH-YsApd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="tmVA-_wDSa3nCH-YsApd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-12" connectable="0" parent="tmVA-_wDSa3nCH-YsApd-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="承認者が承認する" vertex="1">
+          <mxGeometry relative="1" x="-0.0205" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="申請中" vertex="1">
+          <mxGeometry height="60" width="200" x="400" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-11" edge="1" parent="1" source="tmVA-_wDSa3nCH-YsApd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="tmVA-_wDSa3nCH-YsApd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#1A1A1A;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#1A1A1A;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="865" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-10" edge="1" parent="1" source="tmVA-_wDSa3nCH-YsApd-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-14" edge="1" parent="1" source="tmVA-_wDSa3nCH-YsApd-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endFill=0;startArrow=classic;startFill=1;" target="tmVA-_wDSa3nCH-YsApd-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="330" as="sourcePoint" />
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmVA-_wDSa3nCH-YsApd-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;承認者が差し戻す（差し戻しの&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;理由が書かれていること）&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="220" y="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
