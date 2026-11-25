@@ -1,3 +1,25 @@
+## README 
+社員が経費を申請できる経費精算アプリです。このフォルダに設計書一式をまとめています。
+
+
+|成果物	|ファイル名	|
+|-----|-----|
+|API設計書	|expense-api.md|
+|権限マトリクス|	expense-permission-matrix.md|
+|ER図	|expense-er.drawio・expense-er.png|
+|テーブル定義書|	expense-table.md|
+|CRUD表|	expense-crud.md|
+|シーケンス図（1本）|	expense-sequence.drawio・expense-sequence.png|
+|状態遷移図と遷移表	|expense-state.drawio・expense-state.png・expense-state-table.md|
+|例外一覧|	expense-exceptions.md|
+|テスト設計書	|expense-test.md|
+|AIに読ませて確かめた記録	|expense-ai-check.md|
+
+
+- AIチェックで確認事項リストに追加した項目：3件
+- なお`register-` で始まる2つのファイルはTutorial 13-8-1で作成した新規登録のテスト設計書です。
+
+
 # post-app
 
 投稿を一覧・編集・削除できる、小さな Laravel アプリです。Tutorial 13 から 15 まで、このアプリ 1 本を題材に設計・実装・仕組み化を進めます。
