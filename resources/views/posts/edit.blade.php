@@ -28,6 +28,8 @@
         .btn-secondary:hover { background: #F7F8F9; }
         .btn:focus-visible { outline: 2px solid #E8792B; outline-offset: 2px; }
         .error { color: #D6402C; font-size: 0.83rem; margin-top: 0.3rem; }
+        .counter { color: #5B6570; font-size: 0.8rem; margin-top: 0.3rem; text-align: right; font-variant-numeric: tabular-nums; }
+        .counter.over { color: #D6402C; font-weight: 700; }
     </style>
 </head>
 <body>
@@ -66,7 +68,8 @@
 
                 <div class="form-group">
                     <label for="content">本文</label>
-                    <textarea id="content" name="content" required>{{ old('content', $post->content) }}</textarea>
+                    <textarea id="content" name="content" aria-describedby="content-counter" required>{{ old('content', $post->content) }}</textarea>
+                    <p class="counter" id="content-counter" data-max="{{ \App\Models\Post::CONTENT_MAX_LENGTH }}" aria-live="polite"></p>
                     @error('content')
                         <p class="error">{{ $message }}</p>
                     @enderror
@@ -79,5 +82,23 @@
             </form>
         </main>
     </div>
+    <script>
+        (() => {
+            const textarea = document.getElementById('content');
+            const counter = document.getElementById('content-counter');
+            const max = Number(counter.dataset.max);
+
+            const update = () => {
+                // サーバー側と同じ数え方にする（前後の空白は保存前に除かれる。絵文字などは [...] で1字になる）
+                const text = textarea.value.replace(/^[\s﻿​]+|[\s﻿​]+$/gu, '');
+                const remaining = max - [...text].length;
+                counter.textContent = `残り ${remaining} 字`;
+                counter.classList.toggle('over', remaining < 0);
+            };
+
+            textarea.addEventListener('input', update);
+            update();
+        })();
+    </script>
 </body>
 </html>
