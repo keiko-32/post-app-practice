@@ -92,7 +92,7 @@
                 // サーバー側と同じ数え方にする（前後の空白は保存前に除かれる。絵文字などは [...] で1字になる）
                 const text = textarea.value.replace(/^[\s\uFEFF\u200B]+|[\s\uFEFF\u200B]+$/gu, '');
                 const remaining = max - [...text].length;
-                counter.textContent = `残り ${remaining} 字`;
+                counter.textContent = remaining < 0 ? `${-remaining}字オーバー` : `残り ${remaining} 字`;
                 counter.classList.toggle('over', remaining < 0);
             };
 
